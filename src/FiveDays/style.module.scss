@@ -1,0 +1,22 @@
+
+@import '../style/variables';
+.data{
+    color: $color-main-text;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: nowrap;
+    background:none;
+}
+
+
+.weather__title {
+        font-size: $font-size-title;
+        font-weight: 600;
+        font-family: $font-family;
+        align-self: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    
+}
